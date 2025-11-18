@@ -7,6 +7,12 @@ public static void main(String[] args){
   }
   System.out.println("______________________________________________________________________________________________________");
   System.out.println("After Reverse String: "+rev);
+
+  String reverse = new StringBuilder(testName).reverse().toString();
+  if(testName.equals(reverse))
+    System.out.println("\n'"+testName+"' is Palindrome");
+  else
+    System.out.println("\n'"+testName+"'is not Paalindrome");
   System.out.println("______________________________________________________________________________________________________");
 }
 }
