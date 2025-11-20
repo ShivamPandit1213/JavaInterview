@@ -1,6 +1,7 @@
 public class Palindrome{
 public static void main(String[] args){
-  
+  // Palindrome = "madam"
+  // Not Palindrome = "Hello"
   System.out.println("______________________________________________________________________________________________________");
 
   String name = "madem";
