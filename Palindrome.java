@@ -7,9 +7,9 @@ public static void main(String[] args){
   
   String rev = new StringBuilder(name).reverse().toString();
   if (name.equals(rev)) 
-    System.out.println("palindrome");
+    System.out.println("String '"+name+"' is palindrome");
   else 
-    System.out.println("Not Palindrome");
+    System.out.println("String '"+name+"' is not Palindrome");
   System.out.println("______________________________________________________________________________________________________");
   
   String rev2 = "";
