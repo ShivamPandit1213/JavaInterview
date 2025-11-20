@@ -11,6 +11,6 @@ public class PrimeNumberCheck {
             }
         }
 
-        System.out.println(isPrime ? "Prime" : "Not Prime");
+        System.out.println("Number '" + num + "' is " + (isPrime ? "Prime" : "Not Prime"));
     }
 }
