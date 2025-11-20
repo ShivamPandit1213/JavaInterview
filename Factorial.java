@@ -1,6 +1,7 @@
 public class Factorial{
 public static void main(String[] args){
-  
+  // 4! = 4 × 3 × 2 × 1
+  // ✔ Answer: 24
   System.out.println("______________________________________________________________________________________________________");
   int a =0, b=1, valueToPrint = 8;
   
