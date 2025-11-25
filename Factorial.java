@@ -1,5 +1,7 @@
-public class Factorial{
+public class Fibonacci{
 public static void main(String[] args){
+Fibonacci = 0, 1, 1, 2, 3, 5, 8, 13
+
   // 4! = 4 × 3 × 2 × 1
   // ✔ Answer: 24
   System.out.println("______________________________________________________________________________________________________");
